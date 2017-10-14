@@ -1,0 +1,116 @@
+//
+//  PrefixHeader.pch
+//  zhubo
+//
+//  Created by Jin on 2017/6/8.
+//  Copyright © 2017年 重庆步联科技. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//#define httpurl @"http://10.0.0.66:88/api.aspx"    蓝麦APPid 1279172163
+//#define httpurl @"http://www.askzhu.com/Api.aspx" //正式环境
+#define httpurl @"http://139.199.188.230:131/Api.aspx" //测试环境
+#define GaoDeMapKey @"67c7f83e567bc3e0387107ccc9574c0e"
+#define HyphenateKey @"1194170613178025#azhu"
+#define WechatKey @"c8231e23128c8a0863601c4bc6cee69a"
+#define MengYouKey @"599b8ec11061d24a93001a5f"
+#define AppleIDKey @"1279172163"
+
+#import <AFNetworking.h>
+#import <Hyphenate/Hyphenate.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <MJRefresh/MJRefresh.h>
+#import <MJExtension.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <MWPhotoBrowser/MWPhotoBrowser.h>
+
+#import "BaseClasss.h"
+#import "BaseData.h"
+#import "BaseTabBarViewController.h"
+#import "BaseNaviViewController.h"
+#import "BaseViewController.h"
+#import "BaseLoginViewController.h"
+#import "HomeNaviViewController.h"
+#import "CircleNaviViewController.h"
+#import "MessageNaviViewController.h"
+#import "MyNaviViewController.h"
+#import "HomeViewController.h"
+#import "CircleViewController.h"
+#import "MessageViewController.h"
+#import "MessageViewController.h"
+#import "UserDetailViewController.h"
+#import "UIColor+Hexadecimal.h"
+
+#import "BiaoQIanData.h"
+
+
+#import <AliyunOSSiOS/OSSService.h>
+
+//#import "ChatDemoUIDefine.h"
+//#import "EMAlertView.h"
+//#import "TTGlobalUICommon.h"
+#import "EaseUI.h"
+
+#ifdef DEBUG
+    #define ZBLog(...) NSLog(__VA_ARGS__)
+#else
+    #define ZBLog(...)
+#endif
+
+#define UIColorFromRGBA(rgbValue, alphaValue) \
+        [UIColor \
+        colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+        green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 \
+        blue:((float)(rgbValue & 0x0000FF))/255.0 \
+        alpha:alphaValue]
+#define BaseColorYellow UIColorFromRGBA(0xffae00, 1)
+#define BaseColorGray UIColorFromRGBA(0xa1a6bb, 1)
+#define BaseColorGray2 UIColorFromRGBA(0xdbdbdb, 1)
+#define BaseColorBackGround UIColorFromRGBA(0xf0f1f1, 1)
+#define BaseColorBlack UIColorFromRGBA(0x2d2f35, 1)
+#define BaseColorBlack2 UIColorFromRGBA(0x3a3f5c, 1)
+#define BaseColorBlack3 UIColorFromRGBA(0x222328, 1)
+#define BaseColorBlue UIColorFromRGBA(0x0091ea, 1)
+#define BaseColorPurple UIColorFromRGBA(0x007aff, 1)
+#define BaseColorhuise UIColorFromRGBA(0xeef0f2, 1)
+#define BaseColorhuise1 UIColorFromRGBA(0x808080, 1)
+#define Random(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define RandomColor Random(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+#define HEXCOLOR(hex) [UIColor colorWithHex:hex]
+
+//环信用户名前缀
+#define HyphenatePrefix @"azhu_"
+
+#define PageSize 8
+#define SCREEN_WIDTH [UIApplication sharedApplication].keyWindow.bounds.size.width
+#define SCREEN_HEIGHT [UIApplication sharedApplication].keyWindow.bounds.size.height
+#define SCREEN_W_SCALE SCREEN_WIDTH / 375.0 / 2.0
+#define CONTENT_HEIGHT SCREEN_HEIGHT - 112
+#define MARGIN_20 SCREEN_W_SCALE * 20
+#define MARGIN_30 SCREEN_W_SCALE * 30
+#define MARGIN_40 SCREEN_W_SCALE * 40
+
+//
+#define BaseStringNetError @"网络错误,请稍后重试"
+#define BaseStringSendSucc @"发送成功"
+#define BaseStringSendFail @"发送失败"
+#define BaseStringLoginFail @"验证码错误或失效"
+#define BaseStringFollowSucc @"关注成功"
+#define BaseStringFollowNOSucc @"关注已取消"
+#define BaseStringDZFollowSucc @"点赞成功"
+#define BaseStringYHXYFail @"请同意用户协议"
+#define BaseStringphoneInputFail @"请输入手机号或确认是否正确"
+#define BaseStringcodeFail @"请输入验证码或确认是否正确"
+#define BaseStringNickNameExits @"用户昵称重复"
+#define BaseStringAddFail @"添加失败"
+
+#define URL_APPID @"wxec524ecc16d6f5c8"
+#define URL_SECRET @"cc9274c302396e4d95eb1d8e122808f3"
+
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+#endif

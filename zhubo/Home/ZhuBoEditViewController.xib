@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZhuBoEditViewController">
+            <connections>
+                <outlet property="photosBack" destination="sfY-k6-exA" id="wes-3Y-qpb"/>
+                <outlet property="tabView" destination="CPd-qO-1cX" id="L0Y-nK-BOp"/>
+                <outlet property="textView" destination="Cno-Q2-Dkr" id="e7W-Vt-pnj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="sfY-k6-exA">
+                    <rect key="frame" x="0.0" y="79" width="375" height="212"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Cno-Q2-Dkr">
+                            <rect key="frame" x="10" y="0.0" width="355" height="100"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="biE-ka-Z21"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="150" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(0-150)字符" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cde-CH-bdS">
+                            <rect key="frame" x="250" y="96" width="117" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="0.84731842369999999" green="0.84840201670000004" blue="0.86493750000000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Cno-Q2-Dkr" secondAttribute="trailing" constant="10" id="Pvg-K5-Aj6"/>
+                        <constraint firstAttribute="height" priority="900" constant="212" id="TiY-Es-3yY"/>
+                        <constraint firstItem="Cno-Q2-Dkr" firstAttribute="top" secondItem="sfY-k6-exA" secondAttribute="top" id="det-KL-7K2"/>
+                        <constraint firstItem="Cno-Q2-Dkr" firstAttribute="leading" secondItem="sfY-k6-exA" secondAttribute="leading" constant="10" id="h6J-4u-nQF"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="46I-9K-dCr">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" tag="100" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UKZ-Gw-Hur">
+                            <rect key="frame" x="15" y="25" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="back">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" tag="101" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vqt-1h-4JH">
+                            <rect key="frame" x="298" y="25" width="58" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="完成">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CPd-qO-1cX">
+                    <rect key="frame" x="0.0" y="324" width="375" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="OCt-oq-laB"/>
+                    </constraints>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.84731842369999999" green="0.84840201670000004" blue="0.86493750000000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="sfY-k6-exA" secondAttribute="trailing" id="Lfd-fL-A7a"/>
+                <constraint firstAttribute="trailing" secondItem="CPd-qO-1cX" secondAttribute="trailing" id="OJQ-Yj-QBE"/>
+                <constraint firstItem="CPd-qO-1cX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="URS-1d-H3Q"/>
+                <constraint firstItem="CPd-qO-1cX" firstAttribute="top" secondItem="sfY-k6-exA" secondAttribute="bottom" constant="33" id="Zvf-yp-ms1"/>
+                <constraint firstItem="sfY-k6-exA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="79" id="qhh-Ix-ITv"/>
+                <constraint firstItem="sfY-k6-exA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qwy-iF-OX3"/>
+            </constraints>
+            <point key="canvasLocation" x="32.5" y="103.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="12" height="22"/>
+    </resources>
+</document>
