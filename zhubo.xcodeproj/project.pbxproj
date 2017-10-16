@@ -289,6 +289,15 @@
 		514B6D061F94B61E00065337 /* myFindCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6D051F94B61E00065337 /* myFindCell.m */; };
 		514B6D0A1F94B6DF00065337 /* findInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6D091F94B6DF00065337 /* findInfoView.m */; };
 		514B6D0D1F94B7F500065337 /* releaseFindselectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6D0C1F94B7F500065337 /* releaseFindselectView.m */; };
+		514B6D101F94B8B100065337 /* middleIndexController.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6D0F1F94B8B100065337 /* middleIndexController.m */; };
+		514B6D131F94BA4600065337 /* findIndexController.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6D121F94BA4600065337 /* findIndexController.m */; };
+		514B6D161F94BA9500065337 /* findReleaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6D151F94BA9500065337 /* findReleaseController.m */; };
+		514B6D191F94BAF400065337 /* findNeedTypeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6D181F94BAF400065337 /* findNeedTypeController.m */; };
+		514B6D1C1F94BB6300065337 /* findReleaseVoiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6D1B1F94BB6300065337 /* findReleaseVoiceController.m */; };
+		514B6D1F1F94BBE500065337 /* findAddressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6D1E1F94BBE500065337 /* findAddressController.m */; };
+		514B6D221F94BC4600065337 /* findListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6D211F94BC4600065337 /* findListController.m */; };
+		514B6D251F94BD7600065337 /* pubSelectPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6D241F94BD7600065337 /* pubSelectPickerView.m */; };
+		514B6D281F94BE3600065337 /* pubAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6D271F94BE3600065337 /* pubAlertView.m */; };
 		8958EAB51F0D69BD007592B4 /* MessageWuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8958EAB41F0D69BD007592B4 /* MessageWuView.xib */; };
 		8958EAB91F0D6F05007592B4 /* myViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8958EAB71F0D6F05007592B4 /* myViewController.m */; };
 		8958EABA1F0D6F05007592B4 /* myViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8958EAB81F0D6F05007592B4 /* myViewController.xib */; };
@@ -773,6 +782,24 @@
 		514B6D091F94B6DF00065337 /* findInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = findInfoView.m; sourceTree = "<group>"; };
 		514B6D0B1F94B7F500065337 /* releaseFindselectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = releaseFindselectView.h; sourceTree = "<group>"; };
 		514B6D0C1F94B7F500065337 /* releaseFindselectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = releaseFindselectView.m; sourceTree = "<group>"; };
+		514B6D0E1F94B8B100065337 /* middleIndexController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = middleIndexController.h; sourceTree = "<group>"; };
+		514B6D0F1F94B8B100065337 /* middleIndexController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = middleIndexController.m; sourceTree = "<group>"; };
+		514B6D111F94BA4600065337 /* findIndexController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = findIndexController.h; sourceTree = "<group>"; };
+		514B6D121F94BA4600065337 /* findIndexController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = findIndexController.m; sourceTree = "<group>"; };
+		514B6D141F94BA9500065337 /* findReleaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = findReleaseController.h; sourceTree = "<group>"; };
+		514B6D151F94BA9500065337 /* findReleaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = findReleaseController.m; sourceTree = "<group>"; };
+		514B6D171F94BAF400065337 /* findNeedTypeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = findNeedTypeController.h; sourceTree = "<group>"; };
+		514B6D181F94BAF400065337 /* findNeedTypeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = findNeedTypeController.m; sourceTree = "<group>"; };
+		514B6D1A1F94BB6300065337 /* findReleaseVoiceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = findReleaseVoiceController.h; sourceTree = "<group>"; };
+		514B6D1B1F94BB6300065337 /* findReleaseVoiceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = findReleaseVoiceController.m; sourceTree = "<group>"; };
+		514B6D1D1F94BBE500065337 /* findAddressController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = findAddressController.h; sourceTree = "<group>"; };
+		514B6D1E1F94BBE500065337 /* findAddressController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = findAddressController.m; sourceTree = "<group>"; };
+		514B6D201F94BC4600065337 /* findListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = findListController.h; sourceTree = "<group>"; };
+		514B6D211F94BC4600065337 /* findListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = findListController.m; sourceTree = "<group>"; };
+		514B6D231F94BD7600065337 /* pubSelectPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pubSelectPickerView.h; sourceTree = "<group>"; };
+		514B6D241F94BD7600065337 /* pubSelectPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pubSelectPickerView.m; sourceTree = "<group>"; };
+		514B6D261F94BE3600065337 /* pubAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pubAlertView.h; sourceTree = "<group>"; };
+		514B6D271F94BE3600065337 /* pubAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pubAlertView.m; sourceTree = "<group>"; };
 		55690B0809DC6091C10E64F4 /* Pods-zhubo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhubo.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhubo/Pods-zhubo.release.xcconfig"; sourceTree = "<group>"; };
 		8958EAB41F0D69BD007592B4 /* MessageWuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageWuView.xib; sourceTree = "<group>"; };
 		8958EAB61F0D6F05007592B4 /* myViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myViewController.h; sourceTree = "<group>"; };
@@ -1671,6 +1698,8 @@
 		514B6CD01F94AC7E00065337 /* middleModular */ = {
 			isa = PBXGroup;
 			children = (
+				514B6D0E1F94B8B100065337 /* middleIndexController.h */,
+				514B6D0F1F94B8B100065337 /* middleIndexController.m */,
 			);
 			path = middleModular;
 			sourceTree = "<group>";
@@ -1710,6 +1739,16 @@
 				514B6D071F94B68D00065337 /* view */,
 				514B6CD61F94AC7E00065337 /* cell */,
 				514B6CD71F94AC7E00065337 /* net */,
+				514B6D111F94BA4600065337 /* findIndexController.h */,
+				514B6D121F94BA4600065337 /* findIndexController.m */,
+				514B6D141F94BA9500065337 /* findReleaseController.h */,
+				514B6D151F94BA9500065337 /* findReleaseController.m */,
+				514B6D1A1F94BB6300065337 /* findReleaseVoiceController.h */,
+				514B6D1B1F94BB6300065337 /* findReleaseVoiceController.m */,
+				514B6D171F94BAF400065337 /* findNeedTypeController.h */,
+				514B6D181F94BAF400065337 /* findNeedTypeController.m */,
+				514B6D1D1F94BBE500065337 /* findAddressController.h */,
+				514B6D1E1F94BBE500065337 /* findAddressController.m */,
 			);
 			path = modular2;
 			sourceTree = "<group>";
@@ -1762,6 +1801,8 @@
 			children = (
 				514B6CDE1F94AC7E00065337 /* cell */,
 				514B6CDF1F94AC7E00065337 /* net */,
+				514B6D201F94BC4600065337 /* findListController.h */,
+				514B6D211F94BC4600065337 /* findListController.m */,
 			);
 			path = modular4;
 			sourceTree = "<group>";
@@ -1794,6 +1835,10 @@
 				514B6CE61F94AE9C00065337 /* UIButton+lihong.m */,
 				514B6CE81F94AF1F00065337 /* pubTiShi.h */,
 				514B6CE91F94AF1F00065337 /* pubTiShi.m */,
+				514B6D231F94BD7600065337 /* pubSelectPickerView.h */,
+				514B6D241F94BD7600065337 /* pubSelectPickerView.m */,
+				514B6D261F94BE3600065337 /* pubAlertView.h */,
+				514B6D271F94BE3600065337 /* pubAlertView.m */,
 			);
 			path = pubClass;
 			sourceTree = "<group>";
@@ -2124,7 +2169,9 @@
 				3C1CD97A1F3DBE9300E3AD77 /* FYLCityModel.m in Sources */,
 				A9B208861F7AE9A2004CCE63 /* LaunchIntroductionView.m in Sources */,
 				514B6CEE1F94B21000065337 /* myNet.m in Sources */,
+				514B6D281F94BE3600065337 /* pubAlertView.m in Sources */,
 				3C23B5401F39B1E40013D438 /* FastForwardView.m in Sources */,
+				514B6D251F94BD7600065337 /* pubSelectPickerView.m in Sources */,
 				3C19240B1F3C5588000D407C /* JZLPhoto.m in Sources */,
 				3CB242A51EEE228300941AC7 /* CircleViewController.m in Sources */,
 				3C620B5C1F2869D80065C387 /* yhxyiViewController.m in Sources */,
@@ -2133,6 +2180,7 @@
 				3C8E40BB1EFA07380033474D /* UserDetailModel.m in Sources */,
 				89AE9E691F03836300EE0D31 /* UserModel.m in Sources */,
 				3CB242A91EEE229700941AC7 /* MyTableViewCell.m in Sources */,
+				514B6D221F94BC4600065337 /* findListController.m in Sources */,
 				3C1DA5491F2F3ADF005E77E6 /* ZYTagImageView.m in Sources */,
 				3CB242B81EEE3D0E00941AC7 /* DiscoverViewController.m in Sources */,
 				A9473E701F6E6C1400E12DF6 /* ZBGCTableViewController.m in Sources */,
@@ -2206,18 +2254,24 @@
 				3C11E83F1F2B239800D3C6C8 /* LMTagInfo.m in Sources */,
 				3C1B2B7C1F1726DB00C1A53A /* MySMSZViewController.m in Sources */,
 				1BD3DFD61F712E7C00D8E695 /* NewGCViewController.m in Sources */,
+				514B6D101F94B8B100065337 /* middleIndexController.m in Sources */,
 				3CC5D1711EF7D374003323CD /* CircleHeaderView.m in Sources */,
 				3CBE3B451F3573AA0067F757 /* zhubaoViewController.m in Sources */,
 				3C23093C1F3083C9007EBBDF /* News.m in Sources */,
 				3C1310801F3369D900E6A4C6 /* HZPhotoBrowserView.m in Sources */,
 				3C4B1F541F18733D00BA398E /* ZhuBoTJTableViewController.m in Sources */,
+				514B6D131F94BA4600065337 /* findIndexController.m in Sources */,
+				514B6D161F94BA9500065337 /* findReleaseController.m in Sources */,
 				3C620B501F2847DA0065C387 /* mingxiViewController.m in Sources */,
 				3CC5D16E1EF7CF2B003323CD /* CircleDetailViewController.m in Sources */,
 				3CB242981EEE226E00941AC7 /* MessageNaviViewController.m in Sources */,
+				514B6D1F1F94BBE500065337 /* findAddressController.m in Sources */,
+				514B6D191F94BAF400065337 /* findNeedTypeController.m in Sources */,
 				A96A41BC1F7D4952000AF5AF /* FollowedViewController.m in Sources */,
 				3CC5D1681EF7B6D6003323CD /* CircleModel.m in Sources */,
 				3CC5D16B1EF7CEDC003323CD /* CircleCreatViewController.m in Sources */,
 				3C86A7531F19B93100CEA93D /* CircleSZViewController.m in Sources */,
+				514B6D1C1F94BB6300065337 /* findReleaseVoiceController.m in Sources */,
 				3C4B1F571F18735400BA398E /* ZhuBoGZTableViewController.m in Sources */,
 				3CD7341D1F349C8900F95015 /* bangzhufankuiViewController.m in Sources */,
 				3CB242B21EEE317E00941AC7 /* HomeTitleView.m in Sources */,

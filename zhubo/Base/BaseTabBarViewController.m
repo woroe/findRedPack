@@ -39,7 +39,7 @@
 - (void)loadTabBar {
     NSMutableArray *VCs = [NSMutableArray array];
     NSArray *navis = @[@"HomeNaviViewController", @"CircleNaviViewController", @"FBNewsNavViewController", @"MessageNaviViewController", @"MyNaviViewController"];
-    NSArray *rootvcs = @[@"HomeViewController", @"DiscoverViewController", @"FBNewsViewController", @"MessageViewController", @"MyViewController"];
+    NSArray *rootvcs = @[@"HomeViewController", @"findIndexController", @"FBNewsViewController", @"MessageViewController", @"MyViewController"];
     NSArray *titles = @[@"筑播", @"附近", @"", @"消息", @"我的"];
     NSArray *images = @[@"tab_home", @"btm_nearby", @"h_fabu", @"tab_xiaoxi", @"tab_user"];
     NSArray *selecteds = @[@"shouye_select", @"btm_nearby_clicked", @"h_fabu", @"tab_xiaoxi_f", @"btm_my_clicked"];
