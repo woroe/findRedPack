@@ -276,6 +276,19 @@
 		3CF50E291EF4FA8B00D4EB14 /* CommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF50E281EF4FA8B00D4EB14 /* CommentModel.m */; };
 		3CF50E2C1EF508CD00D4EB14 /* CommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF50E2B1EF508CD00D4EB14 /* CommentView.m */; };
 		483F7A7DA7248E07B510FF68 /* libPods-zhubo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 275FB6C35B8EA7280111BE5E /* libPods-zhubo.a */; };
+		514B6CE41F94AE5300065337 /* UILabel+lihong.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6CE31F94AE5300065337 /* UILabel+lihong.m */; };
+		514B6CE71F94AE9C00065337 /* UIButton+lihong.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6CE61F94AE9C00065337 /* UIButton+lihong.m */; };
+		514B6CEA1F94AF1F00065337 /* pubTiShi.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6CE91F94AF1F00065337 /* pubTiShi.m */; };
+		514B6CEE1F94B21000065337 /* myNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6CED1F94B21000065337 /* myNet.m */; };
+		514B6CF41F94B2F100065337 /* findNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6CF31F94B2F100065337 /* findNet.m */; };
+		514B6CF71F94B31A00065337 /* messageNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6CF61F94B31A00065337 /* messageNet.m */; };
+		514B6CFA1F94B43800065337 /* recommendNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6CF91F94B43800065337 /* recommendNet.m */; };
+		514B6CFD1F94B4A600065337 /* recommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6CFC1F94B4A600065337 /* recommendCell.m */; };
+		514B6D001F94B4CF00065337 /* squareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6CFF1F94B4CF00065337 /* squareCell.m */; };
+		514B6D031F94B5AF00065337 /* needTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6D021F94B5AF00065337 /* needTypeCell.m */; };
+		514B6D061F94B61E00065337 /* myFindCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6D051F94B61E00065337 /* myFindCell.m */; };
+		514B6D0A1F94B6DF00065337 /* findInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6D091F94B6DF00065337 /* findInfoView.m */; };
+		514B6D0D1F94B7F500065337 /* releaseFindselectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 514B6D0C1F94B7F500065337 /* releaseFindselectView.m */; };
 		8958EAB51F0D69BD007592B4 /* MessageWuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8958EAB41F0D69BD007592B4 /* MessageWuView.xib */; };
 		8958EAB91F0D6F05007592B4 /* myViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8958EAB71F0D6F05007592B4 /* myViewController.m */; };
 		8958EABA1F0D6F05007592B4 /* myViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8958EAB81F0D6F05007592B4 /* myViewController.xib */; };
@@ -733,6 +746,33 @@
 		3CF50E281EF4FA8B00D4EB14 /* CommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentModel.m; sourceTree = "<group>"; };
 		3CF50E2A1EF508CD00D4EB14 /* CommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentView.h; sourceTree = "<group>"; };
 		3CF50E2B1EF508CD00D4EB14 /* CommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentView.m; sourceTree = "<group>"; };
+		514B6CE21F94AE5300065337 /* UILabel+lihong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+lihong.h"; sourceTree = "<group>"; };
+		514B6CE31F94AE5300065337 /* UILabel+lihong.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+lihong.m"; sourceTree = "<group>"; };
+		514B6CE51F94AE9C00065337 /* UIButton+lihong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+lihong.h"; sourceTree = "<group>"; };
+		514B6CE61F94AE9C00065337 /* UIButton+lihong.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+lihong.m"; sourceTree = "<group>"; };
+		514B6CE81F94AF1F00065337 /* pubTiShi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pubTiShi.h; sourceTree = "<group>"; };
+		514B6CE91F94AF1F00065337 /* pubTiShi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pubTiShi.m; sourceTree = "<group>"; };
+		514B6CEB1F94AF7600065337 /* pubConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pubConfig.h; sourceTree = "<group>"; };
+		514B6CEC1F94B21000065337 /* myNet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myNet.h; sourceTree = "<group>"; };
+		514B6CED1F94B21000065337 /* myNet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myNet.m; sourceTree = "<group>"; };
+		514B6CF21F94B2F100065337 /* findNet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = findNet.h; sourceTree = "<group>"; };
+		514B6CF31F94B2F100065337 /* findNet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = findNet.m; sourceTree = "<group>"; };
+		514B6CF51F94B31A00065337 /* messageNet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = messageNet.h; sourceTree = "<group>"; };
+		514B6CF61F94B31A00065337 /* messageNet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = messageNet.m; sourceTree = "<group>"; };
+		514B6CF81F94B43800065337 /* recommendNet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = recommendNet.h; sourceTree = "<group>"; };
+		514B6CF91F94B43800065337 /* recommendNet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = recommendNet.m; sourceTree = "<group>"; };
+		514B6CFB1F94B4A600065337 /* recommendCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = recommendCell.h; sourceTree = "<group>"; };
+		514B6CFC1F94B4A600065337 /* recommendCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = recommendCell.m; sourceTree = "<group>"; };
+		514B6CFE1F94B4CF00065337 /* squareCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = squareCell.h; sourceTree = "<group>"; };
+		514B6CFF1F94B4CF00065337 /* squareCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = squareCell.m; sourceTree = "<group>"; };
+		514B6D011F94B5AF00065337 /* needTypeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = needTypeCell.h; sourceTree = "<group>"; };
+		514B6D021F94B5AF00065337 /* needTypeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = needTypeCell.m; sourceTree = "<group>"; };
+		514B6D041F94B61E00065337 /* myFindCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myFindCell.h; sourceTree = "<group>"; };
+		514B6D051F94B61E00065337 /* myFindCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myFindCell.m; sourceTree = "<group>"; };
+		514B6D081F94B6DF00065337 /* findInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = findInfoView.h; sourceTree = "<group>"; };
+		514B6D091F94B6DF00065337 /* findInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = findInfoView.m; sourceTree = "<group>"; };
+		514B6D0B1F94B7F500065337 /* releaseFindselectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = releaseFindselectView.h; sourceTree = "<group>"; };
+		514B6D0C1F94B7F500065337 /* releaseFindselectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = releaseFindselectView.m; sourceTree = "<group>"; };
 		55690B0809DC6091C10E64F4 /* Pods-zhubo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhubo.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhubo/Pods-zhubo.release.xcconfig"; sourceTree = "<group>"; };
 		8958EAB41F0D69BD007592B4 /* MessageWuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageWuView.xib; sourceTree = "<group>"; };
 		8958EAB61F0D6F05007592B4 /* myViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myViewController.h; sourceTree = "<group>"; };
@@ -1150,7 +1190,7 @@
 		3C62F8051EE8FA5E007C251F /* zhubo */ = {
 			isa = PBXGroup;
 			children = (
-				51D32FAD1F91F67700E164AC /* code */,
+				514B6CCF1F94AC7E00065337 /* Aclass */,
 				3C1AE2EE1F67E61000780C48 /* zhubo.entitlements */,
 				3C51D6211F5CE9760067F01D /* libWeiboSDK */,
 				3C39B5321F276FF4003100BE /* News */,
@@ -1615,51 +1655,158 @@
 			name = weixin;
 			sourceTree = "<group>";
 		};
-		51D32FAD1F91F67700E164AC /* code */ = {
+		514B6CCF1F94AC7E00065337 /* Aclass */ = {
 			isa = PBXGroup;
 			children = (
-				51D32FAE1F91F67700E164AC /* find */,
-				51D32FB21F91F67700E164AC /* pub */,
+				514B6CD01F94AC7E00065337 /* middleModular */,
+				514B6CD11F94AC7E00065337 /* modular1 */,
+				514B6CD51F94AC7E00065337 /* modular2 */,
+				514B6CD91F94AC7E00065337 /* modular3 */,
+				514B6CDD1F94AC7E00065337 /* modular4 */,
+				514B6CE11F94AC7E00065337 /* pubClass */,
 			);
-			path = code;
-			sourceTree = "<group>";
+			path = Aclass;
+			sourceTree = SOURCE_ROOT;
 		};
-		51D32FAE1F91F67700E164AC /* find */ = {
-			isa = PBXGroup;
-			children = (
-				51D32FAF1F91F67700E164AC /* model */,
-				51D32FB01F91F67700E164AC /* net */,
-				51D32FB11F91F67700E164AC /* view */,
-			);
-			path = find;
-			sourceTree = "<group>";
-		};
-		51D32FAF1F91F67700E164AC /* model */ = {
+		514B6CD01F94AC7E00065337 /* middleModular */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = model;
+			path = middleModular;
 			sourceTree = "<group>";
 		};
-		51D32FB01F91F67700E164AC /* net */ = {
+		514B6CD11F94AC7E00065337 /* modular1 */ = {
 			isa = PBXGroup;
 			children = (
+				514B6CD21F94AC7E00065337 /* cell */,
+				514B6CD31F94AC7E00065337 /* net */,
+			);
+			path = modular1;
+			sourceTree = "<group>";
+		};
+		514B6CD21F94AC7E00065337 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				514B6CFB1F94B4A600065337 /* recommendCell.h */,
+				514B6CFC1F94B4A600065337 /* recommendCell.m */,
+				514B6CFE1F94B4CF00065337 /* squareCell.h */,
+				514B6CFF1F94B4CF00065337 /* squareCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		514B6CD31F94AC7E00065337 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				514B6CF81F94B43800065337 /* recommendNet.h */,
+				514B6CF91F94B43800065337 /* recommendNet.m */,
 			);
 			path = net;
 			sourceTree = "<group>";
 		};
-		51D32FB11F91F67700E164AC /* view */ = {
+		514B6CD51F94AC7E00065337 /* modular2 */ = {
 			isa = PBXGroup;
 			children = (
+				514B6D071F94B68D00065337 /* view */,
+				514B6CD61F94AC7E00065337 /* cell */,
+				514B6CD71F94AC7E00065337 /* net */,
 			);
-			path = view;
+			path = modular2;
 			sourceTree = "<group>";
 		};
-		51D32FB21F91F67700E164AC /* pub */ = {
+		514B6CD61F94AC7E00065337 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				514B6D011F94B5AF00065337 /* needTypeCell.h */,
+				514B6D021F94B5AF00065337 /* needTypeCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		514B6CD71F94AC7E00065337 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				514B6CF21F94B2F100065337 /* findNet.h */,
+				514B6CF31F94B2F100065337 /* findNet.m */,
+			);
+			path = net;
+			sourceTree = "<group>";
+		};
+		514B6CD91F94AC7E00065337 /* modular3 */ = {
+			isa = PBXGroup;
+			children = (
+				514B6CDA1F94AC7E00065337 /* cell */,
+				514B6CDB1F94AC7E00065337 /* net */,
+			);
+			path = modular3;
+			sourceTree = "<group>";
+		};
+		514B6CDA1F94AC7E00065337 /* cell */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = pub;
+			path = cell;
+			sourceTree = "<group>";
+		};
+		514B6CDB1F94AC7E00065337 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				514B6CF51F94B31A00065337 /* messageNet.h */,
+				514B6CF61F94B31A00065337 /* messageNet.m */,
+			);
+			path = net;
+			sourceTree = "<group>";
+		};
+		514B6CDD1F94AC7E00065337 /* modular4 */ = {
+			isa = PBXGroup;
+			children = (
+				514B6CDE1F94AC7E00065337 /* cell */,
+				514B6CDF1F94AC7E00065337 /* net */,
+			);
+			path = modular4;
+			sourceTree = "<group>";
+		};
+		514B6CDE1F94AC7E00065337 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				514B6D041F94B61E00065337 /* myFindCell.h */,
+				514B6D051F94B61E00065337 /* myFindCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		514B6CDF1F94AC7E00065337 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				514B6CEC1F94B21000065337 /* myNet.h */,
+				514B6CED1F94B21000065337 /* myNet.m */,
+			);
+			path = net;
+			sourceTree = "<group>";
+		};
+		514B6CE11F94AC7E00065337 /* pubClass */ = {
+			isa = PBXGroup;
+			children = (
+				514B6CEB1F94AF7600065337 /* pubConfig.h */,
+				514B6CE21F94AE5300065337 /* UILabel+lihong.h */,
+				514B6CE31F94AE5300065337 /* UILabel+lihong.m */,
+				514B6CE51F94AE9C00065337 /* UIButton+lihong.h */,
+				514B6CE61F94AE9C00065337 /* UIButton+lihong.m */,
+				514B6CE81F94AF1F00065337 /* pubTiShi.h */,
+				514B6CE91F94AF1F00065337 /* pubTiShi.m */,
+			);
+			path = pubClass;
+			sourceTree = "<group>";
+		};
+		514B6D071F94B68D00065337 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				514B6D081F94B6DF00065337 /* findInfoView.h */,
+				514B6D091F94B6DF00065337 /* findInfoView.m */,
+				514B6D0B1F94B7F500065337 /* releaseFindselectView.h */,
+				514B6D0C1F94B7F500065337 /* releaseFindselectView.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		A94CA0151F72D0730043F543 /* BottomPopView */ = {
@@ -1893,7 +2040,7 @@
 				"${PODS_ROOT}/AMap2DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
 				"${PODS_ROOT}/EaseUI/EaseUI/resources/EaseUIResource.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/MWPhotoBrowser/MWPhotoBrowser.bundle,
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -1936,6 +2083,7 @@
 				3C1C29411F32C0ED00651B46 /* ZXVideoPlayerController.m in Sources */,
 				3C1923F01F3C2E20000D407C /* WebViewController.m in Sources */,
 				3CB242611EEA4EB100941AC7 /* CALayer+BorderColor.m in Sources */,
+				514B6CF41F94B2F100065337 /* findNet.m in Sources */,
 				3C4BBE571F55134800ED2FBE /* WPhotoViewController.m in Sources */,
 				3C1DA5281F2EC3D4005E77E6 /* HVideoViewController.m in Sources */,
 				3C758C5A1F2CADB300991E25 /* Utility.m in Sources */,
@@ -1949,10 +2097,12 @@
 				3C19240C1F3C5588000D407C /* JZLPhotoBrowser.m in Sources */,
 				3CF284DA1F357A24008CE15E /* biaoqianGrZhuYeTableViewCell.m in Sources */,
 				3C532DBD1F3173B80030818F /* LXViewController.m in Sources */,
+				514B6CFD1F94B4A600065337 /* recommendCell.m in Sources */,
 				3C1B2B731F1725BF00C1A53A /* MyYSsheziViewController.m in Sources */,
 				3C1C293E1F32C0ED00651B46 /* ZXVideo.m in Sources */,
 				3C7E7FC31F1BA6C0005DAC78 /* EMessageVIewControllViewController.m in Sources */,
 				3C1DA52F1F2EFE53005E77E6 /* TJBQViewController.m in Sources */,
+				514B6CEA1F94AF1F00065337 /* pubTiShi.m in Sources */,
 				3CF284DF1F359130008CE15E /* guanzhuGrZhuYeTableViewCell.m in Sources */,
 				3C13107F1F3369D900E6A4C6 /* HZPhotoBrowser.m in Sources */,
 				3C11E8421F2B24F000D3C6C8 /* LMTagFrameInfo.m in Sources */,
@@ -1961,6 +2111,7 @@
 				3C2BF9191EFCC18D0067E5BC /* TextInputView.m in Sources */,
 				3C1C29441F32C0ED00651B46 /* ZXVideoPlayerVolumeView.m in Sources */,
 				3CB242531EE9384E00941AC7 /* BaseViewController.m in Sources */,
+				514B6CF71F94B31A00065337 /* messageNet.m in Sources */,
 				3C2309421F308400007EBBDF /* LabelList.m in Sources */,
 				3C13107E1F3369D900E6A4C6 /* HZIndicatorView.m in Sources */,
 				3C19D8011F3554B700E410C7 /* GrZhuYeViewController.m in Sources */,
@@ -1972,6 +2123,7 @@
 				A94CA0281F72D2030043F543 /* UIColor+Hexadecimal.m in Sources */,
 				3C1CD97A1F3DBE9300E3AD77 /* FYLCityModel.m in Sources */,
 				A9B208861F7AE9A2004CCE63 /* LaunchIntroductionView.m in Sources */,
+				514B6CEE1F94B21000065337 /* myNet.m in Sources */,
 				3C23B5401F39B1E40013D438 /* FastForwardView.m in Sources */,
 				3C19240B1F3C5588000D407C /* JZLPhoto.m in Sources */,
 				3CB242A51EEE228300941AC7 /* CircleViewController.m in Sources */,
@@ -2003,8 +2155,11 @@
 				3CF50E1E1EF4C18900D4EB14 /* ZhuBoToolButtonView.m in Sources */,
 				3C25CF7C1F3CD69B00E6006C /* CFDanmakuInfo.m in Sources */,
 				3C4BBE531F55134800ED2FBE /* WPFunctionView.m in Sources */,
+				514B6D001F94B4CF00065337 /* squareCell.m in Sources */,
+				514B6D031F94B5AF00065337 /* needTypeCell.m in Sources */,
 				3CB242D11EEF835200941AC7 /* ZhuBoEditViewController.m in Sources */,
 				3CDCEB041F24EFAD00360ECC /* GTMBase64.m in Sources */,
+				514B6CFA1F94B43800065337 /* recommendNet.m in Sources */,
 				3C63513B1F2325C3004C6DD4 /* UpdateMyViewController.m in Sources */,
 				3C2309391F301AF4007EBBDF /* BiaoQIanData.m in Sources */,
 				3CB2429E1EEE227900941AC7 /* HomeNaviViewController.m in Sources */,
@@ -2014,6 +2169,7 @@
 				3C4BBE521F55134800ED2FBE /* UIImage+fixOrientation.m in Sources */,
 				3C1923E61F3C1132000D407C /* tongzhiViewController.m in Sources */,
 				3C758C5D1F2CAE2F00991E25 /* DLHDActivityIndicator.m in Sources */,
+				514B6CE41F94AE5300065337 /* UILabel+lihong.m in Sources */,
 				3C1DA5461F2F3ADF005E77E6 /* UIView+ZYTagView.m in Sources */,
 				3C620B611F28CB440065C387 /* QiXianViewController.m in Sources */,
 				3CF50E1B1EF38AA800D4EB14 /* ZhuBoDetailView.m in Sources */,
@@ -2035,6 +2191,7 @@
 				3C62F80B1EE8FA5E007C251F /* AppDelegate.m in Sources */,
 				3C86A75C1F1A02F400CEA93D /* shareViewController.m in Sources */,
 				3CB242921EEE224A00941AC7 /* MyNaviViewController.m in Sources */,
+				514B6D061F94B61E00065337 /* myFindCell.m in Sources */,
 				3CAB7D361F45B60200DF76BB /* UIImage+Color.m in Sources */,
 				8958EAB91F0D6F05007592B4 /* myViewController.m in Sources */,
 				3C1923EB1F3C28DD000D407C /* tongzhiTableViewCell.m in Sources */,
@@ -2043,6 +2200,7 @@
 				3CF284D11F3574D4008CE15E /* guanzhuViewController.m in Sources */,
 				3C758C511F2CAD3700991E25 /* HAVPlayer.m in Sources */,
 				A94CA0241F72D0730043F543 /* CollectionItemsView.m in Sources */,
+				514B6CE71F94AE9C00065337 /* UIButton+lihong.m in Sources */,
 				1B5A15FF1F728A08001C32F5 /* UserInfoViewController.m in Sources */,
 				A9473E761F6E7A2E00E12DF6 /* ZBGCDetailViewController.m in Sources */,
 				3C11E83F1F2B239800D3C6C8 /* LMTagInfo.m in Sources */,
@@ -2065,6 +2223,7 @@
 				3CB242B21EEE317E00941AC7 /* HomeTitleView.m in Sources */,
 				3C25CF831F3CD69B00E6006C /* FullViewController.m in Sources */,
 				3CF50E2C1EF508CD00D4EB14 /* CommentView.m in Sources */,
+				514B6D0D1F94B7F500065337 /* releaseFindselectView.m in Sources */,
 				3CF50E181EF37AB500D4EB14 /* NSDate+Date.m in Sources */,
 				3C620B541F2849550065C387 /* mxTableViewCell.m in Sources */,
 				3C4B1F5B1F18A2F200BA398E /* CircleToXiangViewController.m in Sources */,
@@ -2076,6 +2235,7 @@
 				3C39B52D1F272504003100BE /* CircleDetailCell.m in Sources */,
 				3CAB7D371F45B60200DF76BB /* UIImage+Gif.m in Sources */,
 				3CF50E0E1EF2800C00D4EB14 /* UserDetailViewController.m in Sources */,
+				514B6D0A1F94B6DF00065337 /* findInfoView.m in Sources */,
 				3CB242A41EEE228300941AC7 /* CircleNaviViewController.m in Sources */,
 				3C86A7561F19C11900CEA93D /* CircleNewsViewController.m in Sources */,
 				3C23B5441F39B1E40013D438 /* WMPlayer.m in Sources */,
